@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storedemographicdata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="Age0to9" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="Age10to17" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="Age18to24" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="Age25to29" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="Age30to39" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="Age40to49" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="Age50to64" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="Age65Plus" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="EdLTHS" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="EdHSGrad" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="EdSomeCol" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="EdAssociate" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="EdBachelor" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="EdMaster" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="EdProfSchl" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="EdDoctorate" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz1Per" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz2Per" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz3Per" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz4Per" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz5PlusPer" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHIncU25K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc25Kto50K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc50Kto75K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc75Kto100K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc100Kto150K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc150Kto250K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc250KPlus" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopAsian" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopBlack" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopHispanic" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopMulti" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopNativeAmer" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopOther" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopPacIsl" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopWhite" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal0to100K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal100Kto200K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal200Kto300K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal300Kto400K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal400Kto500K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal500Kto750K" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal750KPlus" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+            <Field name="PopDens" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storedemographicdata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NAWAFA~1\AppData\Local\Temp\Engine_9336_0576b6d24dce4ed181168eb4f4625b7f_\Engine_10412_58b38fe50d8e47489d5e1eac49bbb873_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storeinformation.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storeinformation.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storeinformation.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storeinformation.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storeinformation.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storeinformation.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storeinformation.csv" type="V_String" />
+            <Field name="Type" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\storeinformation.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NAWAFA~1\AppData\Local\Temp\Engine_9336_0576b6d24dce4ed181168eb4f4625b7f_\Engine_10412_8ac7fee614b447318546f25d5f4e4df3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Stores_After_Clustering.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="Total_Sales" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._Dry_Grocery" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._Diary" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._Frozen_Food" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._Meat" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._Produce" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._Floral" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._Deli" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._Bakery" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="X._General_Merchandise" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+            <Field name="Cluster" size="254" source="File: C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Stores_After_Clustering.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NAWAFA~1\AppData\Local\Temp\Engine_9336_0576b6d24dce4ed181168eb4f4625b7f_\Engine_10412_28ce8dd026fc4aee8f7e192a69e65d74_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="198" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NAWAFA~1\AppData\Local\Temp\Engine_9336_0576b6d24dce4ed181168eb4f4625b7f_\Engine_10412_ac107be0abf54028898cb524c6314110_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="354" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Nawaf AlSaeed\OneDrive\Desktop\Predictive analysis\6th Project - Grocery Store\Store_After_Clustring_And_Address.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store_After_Clustring_And_Address.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data_Produced_After_Task1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
